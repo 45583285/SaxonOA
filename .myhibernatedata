@@ -1,0 +1,24 @@
+#MyEclipse Hibernate Properties
+#Thu Aug 13 23:10:34 CST 2015
+sessionFactoryName=sl.saxon.util.HibernateSessionFactory
+genBasicCompId=true
+profile=
+daoSFId=
+version=4.1
+jndiPath=
+detectM2M=true
+reStrategyClass=
+detectO2O=true
+springDaoFile=
+useJavaTypes=true
+keyGenerator=assigned
+libInstallFolder=/src/main/webapp/WEB-INF/lib
+addLibs2Project=true
+genVersionTag=true
+sessionFactoryId=
+basePersistenceClass=
+genAnnotations=true
+reSettingsFile=
+configFile=/SaxonOA/src/main/java/hibernate.cfg.xml
+createConfigFile=true
+addLibs2Classpath=true

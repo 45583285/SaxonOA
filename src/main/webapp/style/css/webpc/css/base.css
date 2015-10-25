@@ -1,0 +1,44 @@
+@charset "utf-8";
+/*
+*/
+
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;}
+body,button,input,select,textarea{font:12px/1 Tahoma, Helvetica;}/*"Microsoft YaHei", "微软雅黑", "Microsoft JhengHei", "STHeiti,MingLiu"*/
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+address,cite,dfn,em,var{font-style:normal;}
+code,kbd,pre,samp{font-family:courier new,courier,monospace;}
+small{font-size:12px;}
+ul,ol{list-style:none;}
+a{text-decoration:none; -webkit-tap-highlight-color: transparent; outline: 0;}
+a:hover{text-decoration:underline;}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+legend{color:#000;}
+fieldset,img{border:0; -webkit-tap-highlight-color: transparent; outline: 0;}
+button,input,select,textarea{font-size:100%; -webkit-tap-highlight-color: transparent; outline: 0;}
+table{border-collapse:collapse;border-spacing:0;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{display:block;margin:0;padding:0;}
+mark{background:#ff0;}
+html { overflow-y: scroll; }
+input[type=button] { -webkit-appearance:button;}
+
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+.clearfix { display: inline-table; }
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* End hide from IE-mac */
+
+a { color:#000; text-decoration:none; }a:hover { color: #c22400; text-decoration:none; }
+.fl { float:left; }.fr { float:right; }
+
+body { color: #333; border-top: 6px solid #0d6f4b;}
+.wrap1100 { width: 1000px; margin: 0px auto;}
+
+
+div.pager { padding: 35px 0px; text-align: right;}
+div.pager a { border: #8db5d7 1px solid; padding: 4px 9px; color: #000; margin-right: 5px; text-decoration: none;}
+div.pager a:hover { border: #2c78bd 1px solid; padding: 4px 9px; margin-right: 5px;}
+div.pager a:active { border: #2c78bd 1px solid; padding: 4px 9px; margin-right: 5px;}
+div.pager span.current { border: #61a11f 1px solid; padding: 4px 9px; color: #fff; margin-right: 5px; background-color: #81b948;}
+div.pager span.disabled { border: #ccc 1px solid; padding: 4px 9px; color: #ccc; margin-right: 5px;}

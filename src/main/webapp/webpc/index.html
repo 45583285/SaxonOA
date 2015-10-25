@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>jQuery</title>
+<link rel='stylesheet' href='/SaxonOA/style/css/webpc/css/justifiedgallery.min.css' type='text/css' media='all' />
+<link rel='stylesheet' href='/SaxonOA/style/css/webpc/css/swipebox.css' type='text/css' media='screen' />
+<link rel='stylesheet' href='/SaxonOA/style/css/webpc/css/colorbox.css' type='text/css' media='screen' />
+<script src='/SaxonOA/jslib/webpc/js/jquery-2.1.1.min.js'></script>
+<script src='/SaxonOA/jslib/webpc/js/justifiedgallery.js'></script>
+<script src='/SaxonOA/jslib/webpc/js/jquery.swipebox.min.js'></script>
+<script src='/SaxonOA/jslib/webpc/js/jquery.colorbox-min.js'></script>
+<script>
+	$(document).ready(function() {
+		$('#remotetest').justifiedGallery({rel: 'gal0'}).on('jg.rowflush', function () {
+			$(this).find('a').colorbox({
+				maxWidth : '80%',
+				maxHeight : '80%',
+				opacity : 0.8,
+				transition : 'elastic',
+				current : ''
+			});
+		});
+	});
+</script>
+</head>
+<body>
+<div id="remotetest"  style="border: 1px solid black;">
+    <a href="/SaxonOA/style/images/webpc/images/6791628438_affaa19e10_b.jpg" title="This is the colors I love">
+        <img alt="This is the colors I love" src="/SaxonOA/style/images/webpc/images/6791628438_affaa19e10_m.jpg" />
+    </a>
+    <a href="/SaxonOA/style/images/webpc/images/6916180091_9c9559e463_b.jpg" title="The Hope">
+        <img alt="The Hope" src="/SaxonOA/style/images/webpc/images/6916180091_9c9559e463_m.jpg" />
+    </a>
+    <a href="/SaxonOA/style/images/webpc/images/6880502467_d4b3c4b2a8_b.jpg" title="Florence streets. Florence people.">
+        <img alt="Florence streets. Florence people." src="/SaxonOA/style/images/webpc/images/6880502467_d4b3c4b2a8_m.jpg" />
+    </a>
+    <a href="/SaxonOA/style/images/webpc/images/6876412479_6268c6e2aa_b.jpg" title="I Love You">
+        <img alt="I Love You" src="/SaxonOA/style/images/webpc/images/6876412479_6268c6e2aa_m.jpg" />
+    </a>
+    <a href="/SaxonOA/style/images/webpc/images/6840627709_92ed52fb41_b.jpg" title="The painter in Florence">
+        <img alt="The painter in Florence" src="/SaxonOA/style/images/webpc/images/6840627709_92ed52fb41_m.jpg" />
+    </a>
+    <a href="/SaxonOA/style/images/webpc/images/6812090617_5fd5bbdda0_b.jpg" title="Me and My Belover">
+        <img alt="Me and My Belover" src="/SaxonOA/style/images/webpc/images/6812090617_5fd5bbdda0_m.jpg" />
+    </a>
+    <a href="/SaxonOA/style/images/webpc/images/6806687375_07d2b7a1f9_b.jpg" title="Fiocco">
+        <img alt="Fiocco" src="/SaxonOA/style/images/webpc/images/6806687375_07d2b7a1f9_m.jpg" />
+    </a>
+    <a href="/SaxonOA/style/images/webpc/images/6798453217_72dea2d06e_b.jpg" title="My first clothespin">
+        <img alt="My first clothespin" src="/SaxonOA/style/images/webpc/images/6798453217_72dea2d06e_m.jpg" />
+    </a>
+    <a href="/SaxonOA/style/images/webpc/images/8083451788_552becfbc7_b.jpg" title="What's your destination?">
+        <img alt="What's your destination?" src="/SaxonOA/style/images/webpc/images/8083451788_552becfbc7_m.jpg" />
+    </a>
+    <a href="/SaxonOA/style/images/webpc/images/7948632554_01f6ae6b6f_b.jpg" title="Just in a dream Place">
+        <img alt="Just in a dream Place" src="/SaxonOA/style/images/webpc/images/7948632554_01f6ae6b6f_m.jpg" />
+    </a>
+    <a href="/SaxonOA/style/images/webpc/images/7302459122_19fa1d8223_b.jpg" title="Truthful Innocence">
+        <img alt="Truthful Innocence" src="/SaxonOA/style/images/webpc/images/7302459122_19fa1d8223_m.jpg" />
+    </a>
+    <a href="/SaxonOA/style/images/webpc/images/7222046648_5bf70e893a_b.jpg" title="Simply my Brother">
+        <img alt="Simply my Brother" src="/SaxonOA/style/images/webpc/images/7222046648_5bf70e893a_m.jpg" />
+    </a>
+    <a href="/SaxonOA/style/images/webpc/images/7002395006_29fdc85f7a_b.jpg" title="Freedom">
+        <img alt="Freedom" src="/SaxonOA/style/images/webpc/images/7002395006_29fdc85f7a_m.jpg" />
+    </a>
+    <a href="/SaxonOA/style/images/webpc/images/7062575651_b23918b11a_b.jpg" title="Maybe spring">
+        <img alt="Maybe spring" src="/SaxonOA/style/images/webpc/images/7062575651_b23918b11a_m.jpg" />
+    </a>
+    <a href="/SaxonOA/style/images/webpc/images/6841267340_855273fd7e_b.jpg" title="Love">
+        <img alt="Love" src="/SaxonOA/style/images/webpc/images/6841267340_855273fd7e_m.jpg" />
+    </a>
+    <a href="/SaxonOA/style/images/webpc/images/6958456697_e56a37bb5f_b.jpg" title="Young Lovers' Wall and the Old Rain">
+        <img alt="Young Lovers' Wall and the Old Rain" src="/SaxonOA/style/images/webpc/images/6958456697_e56a37bb5f_m.jpg" />
+    </a>
+</div>
+
+</body>
+</html>

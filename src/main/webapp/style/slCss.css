@@ -1,0 +1,48 @@
+.tableForm {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.tableForm th {
+	text-align: center;
+	border: 1px solid #ccc;
+	width: 80px;
+	color:#000; 
+	padding: 5px 0px 5px 10px; 
+	border-bottom: 1px solid #e6e6e6; 
+	font-weight: normal; 
+	background: #f7fafc; 
+	border-right: 1px solid #e6e6e6; 
+	border-left: 1px solid #e6e6e6;
+}
+
+.tableForm td {
+	text-align: left;
+	border: 1px solid #ccc;
+	padding: 5px 0px 5px 10px; 
+}
+
+.tableForm input {
+	width: 96%;
+}
+
+.tableForm textarea {
+	width: 96%;
+	height: 100px;
+}
+
+.logo {
+	background: url('images/sshe.png') no-repeat;
+}
+
+.info {
+	background: #FFFEE6;
+	color: #8F5700;
+	padding: 12px;
+}
+
+.tip {
+	width: 24px;
+	height: 16px;
+	float: left;
+}
